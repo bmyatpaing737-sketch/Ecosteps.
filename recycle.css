@@ -1,0 +1,150 @@
+.recycle_title h1 {
+    border:1px solid black;
+    background-color:#eef5e6;
+    text-align: center;
+    margin-top:80px;
+    align-items: center;
+    justify-content: center;
+    height:85px;
+    font-size:40px;
+    color:black;
+    padding-bottom:15px;
+    display: flex;
+}
+
+.paragraph p {
+   font-size:20px;
+    text-align: left;
+    margin-top:50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: arial;
+}
+
+.line {
+    margin-top:50px;
+}
+
+.tips {
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top:70px;
+}
+
+.background  {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-repeat: no-repeat;
+ padding-top: 150px;
+ background: url(recyclegallery/recycle.png);
+ width:100% ;
+ height:500px;
+ background-size: cover;
+ margin: 0 auto;
+ overflow: auto;
+ margin-top:50px;
+}
+
+.background .content{
+  font-family:arial;
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 900px;
+  padding-bottom:30px;
+  text-align:center ;
+  border-radius: 20px;
+}
+
+.content p {
+    font-size:20px;
+    padding-left:10px;
+    padding-right:19x;
+}
+
+
+
+.team_div {
+    border:1px solid;
+    font-size:50px;
+    width:50%;
+    padding:15px;
+    margin:40px auto;
+    text-align: center;
+    background-color:beige;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Youtube Videos */
+
+.videos {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+.videos div {
+    flex-basis:20%;
+    text-align: center;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 20px;
+    font-family:arial;
+    }
+          
+.videos img {
+    width:300px;
+    height:220px;
+    padding:12px;
+}
+          
+.videos button {
+    border:2px dashed black;
+    font-family:arial;
+    padding: 4px 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+       
+.h2 {
+font-size: 160%;
+}
+
+p {
+  font-size:20px;
+ }
+
+.videos button {
+    background-color: #3c5524;
+}
+
+.team1, .team2, .team3 {
+    border:1px solid black;
+}  
+   
+
+.explore-video {
+    text-align: center;
+    font-size: 30px;
+}
+
+.youtube {
+    font-family:arial;
+}
+
+.team1, .team2, .team3 {
+    background-color:rgb(215, 241, 215);
+}
+@media screen and (max-width:768px) {
+    .background {
+        width: 100%;
+        height: 600px;
+    }
+    .recycle_title h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+
+    }
+}

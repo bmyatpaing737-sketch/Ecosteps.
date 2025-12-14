@@ -1,0 +1,132 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin-top: 65px;
+            background: white;
+        }
+
+        /* ------------------ VISITOR GUIDE HEADER ------------------ */
+        .header {
+            background: #9dbb64;
+            padding: 20px 20px;
+            text-align: center;
+            color: white;
+            height:120px;
+            margin-top:80px;
+        }
+
+        .header h1 {
+            font-size:45px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .header p {
+            margin: 10px 0 0;
+            font-size: 25px;
+        }
+
+        /* ------------------ VISITOR GUIDE STYLES ------------------ */
+        .section-box {
+            background: #f0f4de;
+            border: 2px solid #2a3322;
+            border-radius: 14px;
+            padding: 18px;
+            margin: 30px 12px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.25);
+            height: 100%;
+            min-height: 550px;
+        }
+
+        .section-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .section-title {
+            font-size: 25px;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #2d3a20;
+        }
+
+        .section-text {
+            font-size: 15px;
+            margin-top: 10px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        /* ------------------ SUSTAINABLE PRACTICES ------------------ */
+        .title {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 32px;
+            color: #2d4d2d;
+            text-decoration: underline;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card:hover {
+        box-shadow:2px 2px 2px 2px rgb(108, 93, 93);
+        }
+
+        .card {
+            background: #e8eccf;
+            border: 3px solid #000;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 12px;
+            text-align: center;
+            height: 100%;
+            width: calc(50% - 40px); 
+        }
+
+        .card-img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .card-title {
+            font-size: 25px;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #2e3a24;
+        }
+
+        .card-text {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .learn-btn {
+            margin-top: 15px;
+            padding: 10px 25px;
+            background: #506b47;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .learn-btn:hover {
+            background: #7c9267;
+        }
+
+     
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+            }
+        }
+

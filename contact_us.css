@@ -1,0 +1,147 @@
+body {
+    background: #ffffff;
+    font-family: Gill Sans;
+}
+
+/* Icons and contact */
+
+.Mail {
+    border:2px solid black;
+
+    width:70%;
+    padding:5px 5px;
+    margin-top:2px;
+    padding-left: 30px;
+    padding-top:20px;
+    border-radius: 12px;
+    background-color:#e4efd9;
+}
+
+.Phone {
+    margin-top:40px;
+    border:2px solid black;
+
+    width:70%;
+    padding:5px 5px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-top:20px;
+    background-color:#e4efd9;
+}
+.Address {
+    margin-top:40px;
+    border:2px solid black;
+
+    width:70%;
+    padding:5px 5px;
+    padding-left: 30px;
+    padding-top:20px;
+    border-radius: 12px;
+    background-color:#e4efd9;
+}
+
+.icons :hover {
+   transform: translateY(-10px);
+   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Hero section */
+
+.title {
+    font-size: 45px;
+    color: #008861;
+    font-weight: bold;
+}
+
+ .hero {
+    width:100%;
+    height: 500px;
+    background:url(imagehome/park.webp);
+    background-size: 100% 100%;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color:#506b47;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: #e4efd9; 
+        
+}
+
+.subtitle {
+    font-size: 40px;
+    color: #00814b;
+    margin-top: 5px;
+}
+
+/* Contact form */
+
+.left .description {
+    font-size: 20px;
+    width: 90%;
+    font-family:Arial;
+    margin-top:30px;
+}
+
+.icon {
+    font-size: 30px;
+    
+}
+
+.info-text {
+    font-size: 20px;
+}
+
+.input-box {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color:#506b47;
+    font-size: 22px;
+    border-radius: 20px;
+}
+
+
+
+input[type="text"]:hover {
+    box-shadow: 2px 2px 4px  #506b47;
+}
+
+input[type="password"]:hover {
+    box-shadow: 2px 2px 4px   #506b47;
+}
+
+input[type="description"]:hover {
+    box-shadow: 2px 2px 4px   #506b47;
+}
+
+.icons {
+   font-size: 20px;
+   font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+input[type="text"] {
+  box-shadow: 3px 3px 5px rgba(0, 66, 2, 0.3);
+}
+
+textarea[type="text"] {
+    box-shadow: 3px 3px 5px rgba(15, 1, 1, 0.3);
+}
+
+ @media screen and (max-width:768px) {
+            form {
+                margin-top:60px;
+            }
+        }
+
